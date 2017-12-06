@@ -1,1 +1,1 @@
-web: gunicorn lazy_adams:lazy_adams --log-file -
+web: gunicorn lazy_adams:application --log-file -
