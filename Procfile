@@ -1,1 +1,1 @@
-web: gunicorn lazy_adams:application --log-file -
+web: gunicorn lazy_adams.wsgi:application --log-file -
