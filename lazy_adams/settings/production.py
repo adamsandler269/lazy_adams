@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 't931nc2=j#b7+1opjyd-yh5r1hn@goz^3)^#*
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['lazy-adams.herokuapp.com', '.yourdomain.com']
+ALLOWED_HOSTS = ['lazy-adams.herokuapp.com']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
