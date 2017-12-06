@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'lazy_adams.wsgi.application'
+WSGI_APPLICATION = 'lazy_adams.wsgi.lazy_adams'
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
